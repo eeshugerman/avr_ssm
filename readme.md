@@ -5,6 +5,6 @@ This code runs on the Atmel ATmega328P microcontroller. The MCU controls a piezo
 
 ## Compilation
 
-'''sudo apt-get install gcc-avr binutils-avr avr-libc'''
+```sudo apt-get install gcc-avr binutils-avr avr-libc```
 
-'''avr-gcc -mmcu=atmega328p -std=c11 -O  main.c -o ssm'''
+```avr-gcc -mmcu=atmega328p -std=c11 -O  main.c -o ssm```
